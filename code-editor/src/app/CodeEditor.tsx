@@ -31,7 +31,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ language, value, onChange, clas
         value,
       });
 
-      editor.current.on('change', (editor:any) => {
+      editor.current.on('change', (editor) => {
         onChange(editor.getValue());
       });
       editor.current.toTextArea();
