@@ -21,7 +21,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ language, value, onChange, clas
 
   useEffect(() => {
     if (editorRef.current === null) {
-      let editor = CodeMirror(editorRef.current, {
+      const editor = CodeMirror(editorRef.current, {
         mode: language,
         theme: 'material',
         lineNumbers: true,
