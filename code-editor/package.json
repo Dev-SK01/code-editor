@@ -2,6 +2,7 @@
   "name": "code-editor",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.dev-sk01.github.io/code-editor",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
